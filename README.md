@@ -32,14 +32,6 @@ Before running the app, make sure your development environment has all the requi
 
 **Clone the project**
 
-```bash
-git clone git@github.com:MetaMask/metamask-mobile.git && \
-cd metamask-mobile
-```
-
-**Install dependencies**
-
-```bash
 yarn setup
 ```
 
@@ -49,20 +41,13 @@ _Not the usual install command, this will run scripts and a lengthy postinstall 
 
 **Run Metro bundler**
 
-```bash
+
 yarn watch
 ```
 
-_Like a local server for the app_
-
-**Run on a iOS device**
-
-```bash
 yarn start:ios
 ```
 
-**Run on an Android device**
 
-```bash
-yarn start:android
-```
+
+
